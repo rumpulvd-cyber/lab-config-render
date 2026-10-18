@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: lab-config-render
+    env: static
+    buildCommand: ""
+    staticPublishPath: .
+    envVars:
+      - key: ENTORNO
+        value: laboratorio
