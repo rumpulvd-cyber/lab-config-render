@@ -6,4 +6,6 @@ services:
     staticPublishPath: .
     envVars:
       - key: ENTORNO
-        value: laboratorio
+      value: laboratorio
+      - key: NIVEL_LOG
+      value: debug
